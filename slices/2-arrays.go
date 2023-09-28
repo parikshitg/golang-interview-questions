@@ -23,6 +23,6 @@ func main() {
 	addOneToArrayElements(array)
 	fmt.Println("Original Array after function call:", array) // 1 2 3 4 5 as if you pass an array to a function, it will receive a copy of the array, not a pointer to it.
 
-	squareOfArrayElements(&array) // But this style isn't idiomatic go, use Slices instead
-	fmt.Println("Original Array after passed by reference:", array)
+	squareOfArrayElements(&array)                                   // But this style isn't idiomatic go, use Slices instead
+	fmt.Println("Original Array after passed by reference:", array) // 1 4 9 16 25
 }
