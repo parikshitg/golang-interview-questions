@@ -1,5 +1,5 @@
 // Question 1: How do you stop a goroutine?
-
+// Using context to avoid leaking goroutines.
 package main
 
 import (
