@@ -54,3 +54,6 @@ func bah(a []int) {
 	a = append(a, 10)
 }
 ```
+
+6. How to implement Stack in golang?
+7. How to implement Queue in golang?
