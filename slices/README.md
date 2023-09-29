@@ -57,3 +57,6 @@ func bah(a []int) {
 
 6. How to implement Stack in golang?
 7. How to implement Queue in golang?
+8. Print pair of numbers in an array whose sum will result into a particular number, i.e. if array given [1,2,3,3,4,5] and sum given 6, then no. of pairs will be 3 -(1,5), (3,3), (2,4)
+9. Function to delete an slice element.
+10. Remove duplicate values in an array.
